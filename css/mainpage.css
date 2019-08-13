@@ -1,0 +1,107 @@
+body {
+    font-family: "Lato", sans-serif;
+    
+}
+
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 20%;
+    font-family: 'Niramit';
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 10px;
+    text-align:end;
+    font-family: 'Niramit';
+}
+
+#Mainpage {
+    background-color:#CD6155;
+}
+#history {
+    background-color:#F8C471;
+}
+#hobby {
+    background-color:#17A589;
+}
+#music {
+    background-color:#D2B4DE;
+}
+#contact{
+    background-color: #EDBB99;
+}
+
+
+#main_details{
+               
+    background-color:#D98880;
+    width: 100%; 
+    height: 76.8%;
+    position: absolute; 
+    top: 178px; 
+    left: 0;
+}
+#text_mainpage_position{
+    font-size: 30px;
+  
+    text-align: center;
+}
+#pic1{
+                
+    height: 150%;
+    position: absolute; 
+    width: 55%;
+    right: 0;
+    
+}
+#pic2{
+    height: 140%;
+    position: absolute; 
+    width: 55%;
+    right: 0;
+    
+}
+
+#text_history_position{
+    font-size: 30px;
+  
+    text-align: center;
+}
+#history_details{
+    background-color:#F9E79F  ;
+    width: 100%; 
+    height: 76.8%;
+    position: absolute; 
+    top: 178px; 
+    left: 0;
+    
+}
+
+.flex_mainpage{
+    display: flex;
+    flex-direction: row;
+}
+#text_mainpage{
+    
+   padding-left: 130px;
+   padding-top :70px;
+   font-family: 'Mali', cursive;
+}
+#text_historypage{
+    padding-left: 130px;
+   padding-top :50px;
+   font-family: 'Mali', cursive;
+}
